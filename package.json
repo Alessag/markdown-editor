@@ -64,5 +64,6 @@
       "eslint --fix",
       "git add"
     ]
-  }
+  },
+  "homepage": "https://alessag.github.io/markdown-editor/"
 }
