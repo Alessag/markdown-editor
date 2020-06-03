@@ -16,6 +16,7 @@ function Preview({ markdownContent, theme }) {
     >
       <h1>Preview</h1>
       <div
+        id='preview'
         css={
           theme === 'dark'
             ? css`

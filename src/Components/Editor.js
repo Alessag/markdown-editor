@@ -18,6 +18,7 @@ function Editor({ markdownContent, setMarkdownContent, theme }) {
     >
       <h1>Editor</h1>
       <textarea
+        id='editor'
         onChange={handleChange}
         css={
           theme === 'dark'
