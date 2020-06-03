@@ -43,6 +43,7 @@ function Preview({ markdownContent, theme }) {
                 color: #000;
               `
         }
+        // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{ __html: mardownFormattedContent }}
       />
     </ColumnFlex>
