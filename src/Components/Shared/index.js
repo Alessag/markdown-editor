@@ -9,4 +9,7 @@ export const ColumnFlex = styled.div`
 export const RowFlex = styled.div`
   display: flex;
   flex-direction: row;
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
 `;
